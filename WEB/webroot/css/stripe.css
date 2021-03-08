@@ -1,0 +1,22 @@
+.StripeElement {
+    background-color: white !important;
+    padding: 8px 12px !important;
+    border-radius: 4px !important;
+    border: 1px solid transparent !important;
+    box-shadow: 0 1px 3px 0 #e6ebf1 !important;
+    -webkit-transition: box-shadow 150ms ease !important;
+    transition: box-shadow 150ms ease !important;
+    width: 100%;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+}
+.StripeElement--focus {
+    box-shadow: 0 1px 3px 0 #cfd7df;
+}
+.StripeElement--invalid {
+    border-color: #fa755a;
+}
+.StripeElement--webkit-autofill {
+    background-color: #fefde5 !important;
+}
